@@ -13,7 +13,7 @@
 
 ## 1 从GitHub上下载资源
 <details>
-<summary>详情</summary>
+<summary>详情</summary>  
   
 ### 0） 将资源下载至本地
 - 下载zip压缩包（Windows下建议使用）
@@ -24,13 +24,14 @@
 ![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/2.jpg)
 
 ### 1） 将资源fork自己的项目中
-![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/3.jpg)
+![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/3.jpg)  
+  这样，在我们自己的项目中就拥有了别人的项目/狗头。
   
 </details>
 
 ## 2 本地资源上传至GitHub
 <details>
-<summary>详情</summary>
+<summary>详情</summary>   
   
 ### 0）在GitHub上创建相关项目
 
@@ -73,11 +74,6 @@ git pull --rebase
 ```  
 问题解决，后续正常操作。
 
-<details>
-<summary>123</summary>
- 
-### 2） 云端资源改变对本地更新的影响
-在云端资源改变
 
 </details>
 
