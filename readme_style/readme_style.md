@@ -61,20 +61,17 @@ xxx
   
   基本格式：  
   `![alt](URL title)`  
-  alt和title即对应HTML中的alt和title属性（都可省略）：
-  ```
+  alt和title即对应HTML中的alt和title属性（都可省略）：  
   - alt表示图片显示失败时的替换文本
   - title表示鼠标悬停在图片时的显示文本（注意这里要加引号）
-  - __URL可以重定义__，例如：
-  ```
-
+  - __URL可以重定义__，例如下面的表格3，__note:文字超链接也适用__  
+  
   |#|语法|效果|
   |---|---|----
   |1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
   |2|`![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/0.jpg)`|![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/0.jpg)
-  |3|`![][GitHub]`|![][GitHub]
+  |3|`![][touxiang-logo]`|![][touxiang-logo]
 
- 
 </details> 
   
   
@@ -86,19 +83,25 @@ xxx
 [这是一个文字链接](https://github.com/dazhuang17)，指向dazhuang17的github。  
   示例  
   `[这是一个文字链接](https://github.com/dazhuang17)`  
-  一般的，将[]作为ui显示载体，()内为链接地址。
-- 图片链接
+  一般的，将[]作为ui显示载体，()内为链接地址。  
+  同时也可以进行链接地址重定义，[这是一个文字链接][Github]，示例  
+  `[这是一个文字链接][Github]`
+- 图片链接  
+  [![china-logo]](http://www.gov.cn/)  
+  
+|#|语法|效果|
+|---|----|:---:|
+|1|`[![china-logo]](http://www.gov.cn/)`|[![china-logo]](http://www.gov.cn/)|
+|2|`[![](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg)][china]`|[![](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg)][china]|
+|3|`[![china-logo]][china]`|[![china-logo]][china]|
 
 </details>
 
 --------------------------------
-[GitHub]:https://github.com/dazhuang17 "我的github"
-[zhihu]:https://www.zhihu.com/people/guodongxiaren "我的知乎，欢迎关注"
-[weibo]:http://weibo.com/linpiaochen
-[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[weibo-logo]:/img/weibo.png "点击图片进入我的微博"
-[csdn-logo]:/img/csdn.png "我的CSDN博客"
-[code-past]:/img/codepast-logo.jpg "公众号：编程往事"
-[zhihu-shield]:https://img.shields.io/badge/dynamic/json?color=0084ff&logo=zhihu&label=%E6%9E%9C%E5%86%BB%E8%99%BE%E4%BB%81&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dguodongxiaren
+[GitHub]:https://github.com/dazhuang17 
+[china]:http://www.gov.cn/
+[touxiang-logo]:https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/0.jpg
+[china-logo]:https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg
+
 
 
