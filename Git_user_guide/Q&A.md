@@ -1,6 +1,6 @@
 # Q&A
 
-## 4 常见错误
+## 4 常见问题
 ### 0） 连接超时
 <details>
 <summary>详情</summary>
