@@ -87,14 +87,30 @@ xxx
   同时也可以进行链接地址重定义，[这是一个文字链接][Github]，示例  
   `[这是一个文字链接][Github]`
 - 图片链接  
-  [![china-logo]](http://www.gov.cn/)  
+  示例  
+  `[![alt](URL)](URL)`  
+  其中`![alt](URL)`为图片地址，`(URL)`为链接地址  
+  __参考重定义，可灵活配置__
   
 |#|语法|效果|
 |---|----|:---:|
 |1|`[![china-logo]](http://www.gov.cn/)`|[![china-logo]](http://www.gov.cn/)|
 |2|`[![](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg)][china]`|[![](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg)][china]|
 |3|`[![china-logo]][china]`|[![china-logo]][china]|
+  
+</details>
 
+## 5 重定义
+<details>
+<summary>示例</summary>  
+    
+  ```
+  [GitHub]:https://github.com/dazhuang17 
+  [china]:http://www.gov.cn/
+  [touxiang-logo]:https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/0.jpg
+  [china-logo]:https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg
+
+  ```
 </details>
 
 --------------------------------
