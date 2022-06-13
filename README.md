@@ -10,6 +10,7 @@
 - 从GitHub上下载资源
 - 本地资源上传至GitHub
 - 项目更新
+- Git使用常见问题
 
 ## 1 从GitHub上下载资源
 <details>
@@ -25,7 +26,7 @@
 
 ### 1） 将资源fork自己的项目中
 ![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/3.jpg)  
-  这样，在我们自己的项目中就拥有了别人的项目/狗头。
+这样，在我们自己的项目中就拥有了别人的项目\狗头。
   
 </details>
 
@@ -34,10 +35,19 @@
 <summary>详情</summary>   
   
 ### 0）在GitHub上创建相关项目
+  创建仓库  
+  `个人主页 -> repositories -> New`  
+  ![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/4.jpg)  
+  然后输入项目名称、信息配置即可  
+  ![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/5.jpg)  
+  点击`Create repository`即创建成功！
 
-### 1) 安装git及配置
+### 1）安装Git及配置
+  Git官网地址：http://git-scm.com/download/  
+  选择对应系统，安装一路默认就行（可以改安装路径）  
+  **第一次使用Git**
 
-### 2) 上传资源
+### 2）上传资源
   
 </details>
 
@@ -59,9 +69,7 @@ git config --global --unset https.proxy
 ### 1） OpenSSL连接失败
 遇到`OpenSSL SSL_read: Connection was reset, errno 10054`时，  
 建议取消验证
-```
-git config --global http.sslVerify "false"
-```
+`git config --global http.sslVerify "false"`
 
 ### 2） 云端资源改变对本地更新的影响
 在云端资源改变的前提下，作者更新本地资源，然后上传更新，更新失败。  
@@ -69,7 +77,8 @@ git config --global http.sslVerify "false"
 由于你之前上传失败，你pull资源的时候会出现：  
 `error: cannot pull with rebase: Your index contains uncommitted changes.`  
 处理方法
-```git stash  
+```
+git stash  
 git pull --rebase
 ```  
 问题解决，后续正常操作。
