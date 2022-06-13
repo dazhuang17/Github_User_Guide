@@ -18,14 +18,14 @@
   
 ### 0） 将资源下载至本地
 - 下载zip压缩包（Windows下建议使用）
-![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/1.jpg)
+![Image text](https://github.com/dazhuang17/all_img/blob/main/github_user_guide/1.jpg)
 
 - 利用命令行下载资源（Linux下建议使用）
 在命令行中输入`git clone ziyuan_address`，ziyuan_address参考以下
-![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/2.jpg)
+![Image text](https://github.com/dazhuang17/all_img/blob/main/github_user_guide/2.jpg)
 
 ### 1） 将资源fork自己的项目中
-![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/3.jpg)  
+![Image text](https://github.com/dazhuang17/all_img/blob/main/github_user_guide/3.jpg)  
 这样，在我们自己的项目中就拥有了别人的项目\狗头。
   
 </details>
@@ -37,9 +37,9 @@
 ### 0）在GitHub上创建相关项目
   创建仓库  
   `个人主页 -> repositories -> New`  
-  ![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/4.jpg)  
+  ![Image text](https://github.com/dazhuang17/all_img/blob/main/github_user_guide/4.jpg)  
   然后输入项目名称、信息配置即可  
-  ![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/5.jpg)  
+  ![Image text](https://github.com/dazhuang17/all_img/blob/main/github_user_guide/5.jpg)  
   点击`Create repository`即创建成功！
 
 ### 1）安装Git及配置
