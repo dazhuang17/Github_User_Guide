@@ -21,10 +21,11 @@
  
   将修改后的本地项目，右击进入git命令行
   ```
-  git branch -M main # main为分支名
+  git branch -a  # 我就看看
+  git branch -M name # name为分支名
   git add .
   git commit -m "注释语句"
-  git push 
+  git push -u origin name  # 第一次提交新分支需说明新分支，之后git push即可
   ```
 
 </details>
