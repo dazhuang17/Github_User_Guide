@@ -23,6 +23,15 @@ xxx
 <details>
 <summary>详情</summary>  
   
+- 空格  
+  示例
+  ```
+  一个空格&nbsp;
+  两个空格&ensp;
+  四个空格&emsp;
+  细空格&thinsp;
+  ```
+  一个空格|&nbsp;|两个空格|&ensp;|四个空格|&emsp;|细空格|&thinsp;|  
 - 换行  
   直接回车不能换行  
   在上一行结尾打出两个空格  
