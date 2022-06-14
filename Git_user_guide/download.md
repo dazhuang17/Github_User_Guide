@@ -6,7 +6,7 @@
   
 ### 0） 将资源下载至本地
 - 下载zip压缩包（Windows下建议使用）
-![Image text](https://github.com/dazhuang17/Github_User_Guide/blob/main/Git_user_guide/images/1.jpg)
+![Image text](/images/1.jpg)
 
 - 利用命令行下载资源（Linux下建议使用）
 在命令行中输入`git clone ziyuan_address`，ziyuan_address参考以下
