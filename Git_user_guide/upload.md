@@ -7,10 +7,10 @@
   
   创建仓库  
   `个人主页 -> repositories -> New`  
-  ![Image text](https://github.com/dazhuang17/all_img/blob/main/github_user_guide/4.jpg)  
+  ![Image text](/Git_user_guide/images/4.jpg)  
     
   然后输入项目名称、信息配置即可  
-  ![Image text](https://github.com/dazhuang17/all_img/blob/main/github_user_guide/5.jpg)  
+  ![Image text](/Git_user_guide/images/5.jpg)  
     
   点击`Create repository`即创建成功！
 </details>
