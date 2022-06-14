@@ -66,7 +66,7 @@ xxx
 <summary>详情</summary>  
     
   - __建议将所需图片上传至自己的github__  
-  [这是个教程](https://github.com/dazhuang17/github_user_guide/tree/main/Git_user_guide)  
+  [这是个教程](https://github.com/dazhuang17/github_user_guide/tree/main/git_user_guide)  
   
   基本格式：  
   `![alt](URL title)`  
@@ -78,7 +78,7 @@ xxx
   |#|语法|效果|
   |---|---|----
   |1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-  |2|`![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/0.jpg)`|![Image text](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/0.jpg)
+  |2|`![Image text](/readme_style/images/0.jpg)`|![Image text](/readme_style/images/0.jpg)
   |3|`![][touxiang-logo]`|![][touxiang-logo]
 
 </details> 
@@ -104,7 +104,7 @@ xxx
 |#|语法|效果|
 |---|----|:---:|
 |1|`[![china-logo]](http://www.gov.cn/)`|[![china-logo]](http://www.gov.cn/)|
-|2|`[![](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg)][china]`|[![](https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg)][china]|
+|2|`[![](/readme_style/images/6.jpg)][china]`|[![](/readme_style/images/6.jpg)][china]|
 |3|`[![china-logo]][china]`|[![china-logo]][china]|
   
 </details>
@@ -116,16 +116,16 @@ xxx
   ```
   [GitHub]:https://github.com/dazhuang17 
   [china]:http://www.gov.cn/
-  [touxiang-logo]:https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/0.jpg
-  [china-logo]:https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg
+  [touxiang-logo]:/readme_style/images/0.jpg
+  [china-logo]:/readme_style/images/6.jpg
   ```
 </details>
 
 --------------------------------
 [GitHub]:https://github.com/dazhuang17 
 [china]:http://www.gov.cn/
-[touxiang-logo]:https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/0.jpg
-[china-logo]:https://github.com/dazhuang17/doc_img/blob/main/github_user_guide/6.jpg
+[touxiang-logo]:/readme_style/images/0.jpg
+[china-logo]:/readme_style/images/6.jpg
 
 
 
