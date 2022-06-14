@@ -7,10 +7,10 @@
   
   创建仓库  
   `个人主页 -> repositories -> New`  
-  ![Image text](/Git_user_guide/images/4.jpg)  
+  ![Image text](./images/4.jpg)  
     
   然后输入项目名称、信息配置即可  
-  ![Image text](/Git_user_guide/images/5.jpg)  
+  ![Image text](./images/5.jpg)  
     
   点击`Create repository`即创建成功！
 </details>
@@ -21,6 +21,7 @@
   
   Git官网地址：http://git-scm.com/download/  
   选择对应系统，安装一路默认就行（可以改安装路径）  
+  **本文安装环境为Windows**  
   **第一次使用Git**
   - 本地生成SSH密钥  
   右键打开git命令行工具，输入以下命令
@@ -54,7 +55,7 @@
 </details>
 
 ## 附件链接
-- [从GitHub上下载资源](https://github.com/dazhuang17/Github_User_Guide/blob/main/git_user_guide/download.md)
-- [本地资源上传至GitHub](https://github.com/dazhuang17/Github_User_Guide/blob/main/git_user_guide/upload.md)
-- [项目更新](https://github.com/dazhuang17/Github_User_Guide/blob/main/git_user_guide/up_to_date.md)
-- [Git使用常见问题](https://github.com/dazhuang17/Github_User_Guide/blob/main/git_user_guide/Q%26A.md)
+- [从GitHub上下载资源](./download.md)
+- [本地资源上传至GitHub](./upload.md)
+- [项目更新](./up_to_date.md)
+- [Git使用常见问题](./Q%26A.md)

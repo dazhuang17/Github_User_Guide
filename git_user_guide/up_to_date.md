@@ -31,7 +31,7 @@
 </details>
 
 ## 附件链接
-- [从GitHub上下载资源](https://github.com/dazhuang17/Github_User_Guide/blob/main/git_user_guide/download.md)
-- [本地资源上传至GitHub](https://github.com/dazhuang17/Github_User_Guide/blob/main/git_user_guide/upload.md)
-- [项目更新](https://github.com/dazhuang17/Github_User_Guide/blob/main/git_user_guide/up_to_date.md)
-- [Git使用常见问题](https://github.com/dazhuang17/Github_User_Guide/blob/main/git_user_guide/Q%26A.md)
+- [从GitHub上下载资源](./download.md)
+- [本地资源上传至GitHub](./upload.md)
+- [项目更新](./up_to_date.md)
+- [Git使用常见问题](./Q%26A.md)

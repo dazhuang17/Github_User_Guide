@@ -78,7 +78,7 @@ xxx
   |#|语法|效果|
   |---|---|----
   |1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-  |2|`![Image text](/readme_style/images/0.jpg)`|![Image text](/readme_style/images/0.jpg)
+  |2|`![Image text](./images/0.jpg)`|![Image text](./images/0.jpg)
   |3|`![][touxiang-logo]`|![][touxiang-logo]
 
 </details> 
@@ -104,7 +104,7 @@ xxx
 |#|语法|效果|
 |---|----|:---:|
 |1|`[![china-logo]](http://www.gov.cn/)`|[![china-logo]](http://www.gov.cn/)|
-|2|`[![](/readme_style/images/1.jpg)][china]`|[![](/readme_style/images/1.jpg)][china]|
+|2|`[![](./images/1.jpg)][china]`|[![](./images/1.jpg)][china]|
 |3|`[![china-logo]][china]`|[![china-logo]][china]|
   
 </details>
@@ -116,16 +116,16 @@ xxx
   ```
   [GitHub]:https://github.com/dazhuang17 
   [china]:http://www.gov.cn/
-  [touxiang-logo]:/readme_style/images/0.jpg
-  [china-logo]:/readme_style/images/1.jpg
+  [touxiang-logo]:./images/0.jpg
+  [china-logo]:./images/1.jpg
   ```
 </details>
 
 --------------------------------
 [GitHub]:https://github.com/dazhuang17 
 [china]:http://www.gov.cn/
-[touxiang-logo]:/readme_style/images/0.jpg
-[china-logo]:/readme_style/images/1.jpg
+[touxiang-logo]:./images/0.jpg
+[china-logo]:./images/1.jpg
 
 
 
