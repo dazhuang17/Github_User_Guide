@@ -6,11 +6,11 @@
   
 ### 0） 将资源下载至本地
 - 下载zip压缩包（Windows下建议使用）
-![Image text](/Git_user_guide/images/1.jpg)
+![Image text](./git_user_guide/images/1.jpg)
 
 - 利用命令行下载资源（Linux下建议使用）
 在命令行中输入`git clone ziyuan_address`，ziyuan_address参考以下
-![Image text](/Git_user_guide/images/2.jpg)
+![Image text](./images/2.jpg)
 
 ### 1） 将资源fork自己的项目中
 ![Image text](/Git_user_guide/images/3.jpg)  
